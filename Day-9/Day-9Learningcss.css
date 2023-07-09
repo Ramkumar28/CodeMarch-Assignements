@@ -1,0 +1,24 @@
+.box
+{
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  background-color: aqua;
+  margin: 100px 350px;
+}
+
+h1
+{
+    color : blue;
+    background-color:#FFA500;
+    margin: auto;
+    padding: 40px;
+}
+p
+{
+color: rgb(237, 239, 248);
+background-color: purple;
+margin: 40x 10px;
+padding : 20px;
+font-size: 20px;
+}
