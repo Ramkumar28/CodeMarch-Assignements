@@ -1,0 +1,29 @@
+p
+{
+    background-color: yellow;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+div.borderDiv
+{
+    margin: 4em;
+    border-color: black;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    font-size: calc(2.5vw + 30px);
+    font-family: sans-serif;
+  }
+
+div.insideDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
