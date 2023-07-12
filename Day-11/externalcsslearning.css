@@ -1,0 +1,29 @@
+h1
+{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+nav{
+    text-transform: capitalize;
+    background-color: #3d8361;
+    margin:0 auto 1rem
+    
+
+}
+a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+}
+a:hover
+{
+    background-color: #002b23;
+    
+}
+ul.no-bullets
+{
+    list-style-type: none;
+}
