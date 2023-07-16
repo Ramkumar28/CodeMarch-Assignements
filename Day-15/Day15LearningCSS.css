@@ -1,0 +1,87 @@
+.headerDiv
+{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 100px;
+    border: 1px solid black;
+    width: 1000px;
+}
+
+.firstHeader
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.listDiv
+{
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    margin: -10px 10px;
+    width: 1000px;
+}
+
+h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+    margin: 20px;
+}
+
+.unorderedList
+{
+    margin: -20px;
+    padding-top: 20px;
+    list-style-type: square;
+}
+.unorderedList li
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.tableHeader
+{
+    margin: 50px 20px;
+}
+.tableDiv
+{
+    margin-top: 20px;
+    width: 1000px;
+    
+}
+th
+{
+    background-color: darkgreen;
+    color: white;
+    width: 550px;
+    border: black;
+}
+table,td
+{
+    border: 2px solid gray ;
+    border-collapse: collapse;
+    margin: 50px 20px;
+}
+tr
+{
+    height: 50px;
+    text-align: center;
+}
+
+.gradDiv
+{
+    margin: 20px;
+    height:50px;
+    width: 980px;
+    background-image: linear-gradient(rgb(241,156,231), rgb(233, 229, 238));
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: larger;
+    margin: 10px;
+}
