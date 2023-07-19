@@ -1,0 +1,112 @@
+.navDiv
+{
+    background-color: lightsteelblue;
+    height: 50px;
+    width: 100%;
+}
+
+.navItems1
+{
+    color: white;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    right: -40px;
+    margin: 15px;
+}
+
+.navItems2
+{
+    color: white;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    right: 20px;
+    margin: 15px;
+}
+
+.navItems3
+{
+    color: white;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    right: 70px;
+    margin: 15px;
+}
+
+.navItems4
+{
+    color: white;
+    display: inline-block;
+    width: 5%;
+    position: absolute;
+    right: 120px;
+    margin: 15px;
+}
+
+.CodeMarch
+{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+h1{
+    margin: 40px;
+    padding-top: 20px;
+}
+.headerP{
+    padding-top: 10px;
+}
+
+.CodeMarchAcademyText
+{
+    display: flex;
+align-items: start;
+flex-direction: column;
+background-color: bisque;
+width: 100%;
+height: 300px;
+margin-left: 10px;
+}
+.parentDiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;    
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;   
+    margin-bottom: 50px;
+}
+img{
+
+    width: 100%;
+    height: 300px; 
+  object-fit: cover;
+}
+
+.pagination
+{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagination a{
+    color: blue;
+    
+    text-decoration: none;
+    padding: 8px 16px; 
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+.pagination a.active
+{
+    background-color: coral;
+    border: 2px solid black;
+    color: white;
+}
