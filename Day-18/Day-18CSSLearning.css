@@ -1,0 +1,85 @@
+.headerDiv
+{
+background-color: lightseagreen;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+border: 1px solid black;
+color: #000000;
+text-shadow: 5px 5px 6px rgb(0, 118, 118);
+transition-property: width;
+transition-duration: 2s;
+transition-delay: 5s;
+}
+
+.headerDiv :hover
+{
+    width: 1000px;
+}
+
+h2
+{
+    font-size: xx-large;
+}
+
+main {
+    margin-top: 3rem;
+    height: auto;
+    width: 100%;
+}
+
+main h3,
+main p {
+padding-top: 6px;
+}
+
+img
+{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 10px 10px rgb(235, 235, 235);
+    border-radius: 9px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card1
+.card2
+.card3
+{
+    box-shadow: 10px 10px 5px black;
+    border-radius: 9px;
+    border: 2px solid black;
+    text-align: center;
+    border: 2px solid transparent;
+    transform: translate(70px,150px);
+}
+
+footer {
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    transform: rotate(150deg);
+    animation: rotatethediv 5s;
+}
+
+@keyframes rotatethediv
+{
+    from {transform: rotate(150deg);}
+    to {transform: rotate(0deg);}
+}
+
+.card1,
+.card2,
+.card3 {
+  animation: box 9s ease-in-out infinite;
+}
