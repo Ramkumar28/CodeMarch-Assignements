@@ -1,0 +1,65 @@
+*
+{
+    border: 2px;
+}
+
+.nav
+{
+    background-color: lightseagreen;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 10px 0;
+    width: 100%;
+    margin:auto;
+}
+
+li{
+    padding: 20px;    
+}
+
+.imageDiv
+{
+    background-image: url(Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 23rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    text-align: center;
+}
+
+
+.btn
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+button
+{
+    border-radius: 2px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: gray;
+    margin: 2rem;
+}
+
+a
+{
+    text-decoration: none;
+}
+
